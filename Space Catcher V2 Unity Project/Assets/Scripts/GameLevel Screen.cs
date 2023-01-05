@@ -2,17 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameLevelScreen : MonoBehaviour
-{
-    // Start is called before the first frame update
+public class GameLevelScreen : MonoBehaviour { 
+    public GameObject asteroidPrefab;
+    public float respawnTime = 1.0f;
+    private Vector2 screenBounds;
+
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+        screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height)
+        StartCoroutine(asteroidWave());
+        }
 }
