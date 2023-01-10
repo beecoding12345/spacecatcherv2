@@ -7,7 +7,7 @@ public class GameLosingScreen : MonoBehaviour
 {
     public void ReturnToMainMenuButton()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
     public void PlayAgainButton()
