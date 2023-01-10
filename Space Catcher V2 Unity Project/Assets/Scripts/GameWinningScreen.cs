@@ -9,10 +9,12 @@ public class GameWinningScreen : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-
-    public void Quit()
+    public void ReturnToMainMenu()
     {
-        Application.Quit();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
+
+
+  
 }
 

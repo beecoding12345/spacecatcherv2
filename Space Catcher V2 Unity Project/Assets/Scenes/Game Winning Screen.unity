@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 614846542}
   - component: {fileID: 614846541}
   - component: {fileID: 614846540}
+  - component: {fileID: 614846543}
   m_Layer: 5
   m_Name: Return To Main Menu Button
   m_TagString: Untagged
@@ -206,7 +207,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 614846541}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 614846543}
+        m_TargetAssemblyTypeName: GameWinningScreen, Assembly-CSharp
+        m_MethodName: ReturnToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &614846541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -245,6 +258,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 614846538}
   m_CullTransparentMesh: 1
+--- !u!114 &614846543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614846538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fedf5086593644db24991a87ea3ddf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1082935135
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,7 +284,6 @@ GameObject:
   - component: {fileID: 1082935136}
   - component: {fileID: 1082935141}
   - component: {fileID: 1082935140}
-  - component: {fileID: 1082935142}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -386,18 +410,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082935135}
   m_CullTransparentMesh: 1
---- !u!114 &1082935142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1082935135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0fedf5086593644db24991a87ea3ddf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1090442481
 GameObject:
   m_ObjectHideFlags: 0
@@ -971,6 +983,7 @@ GameObject:
   - component: {fileID: 1961851518}
   - component: {fileID: 1961851517}
   - component: {fileID: 1961851516}
+  - component: {fileID: 1961851519}
   m_Layer: 5
   m_Name: Play Again Button
   m_TagString: Untagged
@@ -1042,7 +1055,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1961851517}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1961851519}
+        m_TargetAssemblyTypeName: GameWinningScreen, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1961851517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1081,6 +1106,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1961851514}
   m_CullTransparentMesh: 1
+--- !u!114 &1961851519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961851514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fedf5086593644db24991a87ea3ddf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2091799399
 GameObject:
   m_ObjectHideFlags: 0
