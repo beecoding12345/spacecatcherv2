@@ -19,3 +19,4 @@ public class ScoreScript : MonoBehaviour
         scoreDisplay.text = scoreValue.ToString();
     }
 }
+
