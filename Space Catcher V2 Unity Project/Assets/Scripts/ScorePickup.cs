@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class ScorePickup : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int pickupValue = 1;
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerEnter3D(Collider other )
     {
-        
-    }
+        //Score scoreScript = other.GetComponent<score>();
+    } 
 }
+
