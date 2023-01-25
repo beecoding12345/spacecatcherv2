@@ -5,18 +5,15 @@ using UnityEngine.UI;
 
 public class ScoreScript : MonoBehaviour
 {
-    public Text scoreDisplay;
-
-    private int scoreValue = 0;
-
+    public Text MyscoreText;
+    private int ScoreNum;
 
 
-    public void AddScore(int toAdd)
+    void Start()
     {
-        scoreValue = scoreValue + toAdd;
-
-
-        scoreDisplay.text = scoreValue.ToString();
+        ScoreNum = 0;
+        MyscoreText.text = "Score : " + ScoreNum;
     }
+
 }
 
