@@ -33,12 +33,13 @@ public class ScoreScript : MonoBehaviour
         if (Spaceship.tag == "MyAsteroid")
         {
 
-            ScoreNum -= 1;
+            ScoreNum += 1;
             Destroy(Spaceship.gameObject);
             MyscoreText.text = "Score" + ScoreNum;
 
 
-
         }
     }
+
+
 }

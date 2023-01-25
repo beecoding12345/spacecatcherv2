@@ -6,6 +6,7 @@ TagManager:
   tags:
   - MyAsteroid
   - MySpaceship
+  - MyNetcatcher
   layers:
   - Default
   - TransparentFX
