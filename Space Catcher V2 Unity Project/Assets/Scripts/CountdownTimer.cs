@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class CountdownTimer : MonoBehaviour
 {
     float currentTime = 0f;
-    float startingTime = 100f;
+    float startingTime = 5f;
 
     [SerializeField] Text CountdownText;
 
@@ -19,5 +19,11 @@ public class CountdownTimer : MonoBehaviour
     {
         currentTime -= 1 * Time.deltaTime;
         CountdownText.text = currentTime.ToString();
+
+
+        if (currentTime <= 0)
+        {
+            currentTime = 0;
+        }
     }
 }
