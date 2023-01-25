@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 851, y: 481}
+  m_AnchoredPosition: {x: 903, y: 500}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &93336151
@@ -351,7 +351,6 @@ GameObject:
   m_Component:
   - component: {fileID: 233430093}
   - component: {fileID: 233430094}
-  - component: {fileID: 233430095}
   m_Layer: 0
   m_Name: ' Asteroid Spawner'
   m_TagString: Untagged
@@ -389,19 +388,6 @@ MonoBehaviour:
   asteroidPrefab: {fileID: 7116549104795992724, guid: 22441589a3195c84cbc67095c7a55113, type: 3}
   respawnTime: 1
   screenBoundsX: 50
---- !u!135 &233430095
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 233430092}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &267071825
 GameObject:
   m_ObjectHideFlags: 0
@@ -1696,7 +1682,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1537273023}
   - component: {fileID: 1537273022}
-  - component: {fileID: 1537273024}
   m_Layer: 0
   m_Name: Spaceship Spawner
   m_TagString: Untagged
@@ -1734,19 +1719,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1537273024
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1537273021}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1563013881
 GameObject:
   m_ObjectHideFlags: 0
@@ -2042,7 +2014,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a55f3d45c6943024fab9a15bdc0a62a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 30
 --- !u!114 &1948464274
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -14,6 +14,5 @@ public class ScoreScript : MonoBehaviour
         ScoreNum = 0;
         MyscoreText.text = "Score : " + ScoreNum;
     }
-
+   
 }
-
