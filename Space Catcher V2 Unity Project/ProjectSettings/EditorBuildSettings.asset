@@ -15,6 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Game Winning Screen.unity
     guid: 34245a0e159260f4cbebf59430255877
   - enabled: 1
-    path: Assets/Scenes/Game Losing Screen.unity
+    path: Assets/Scenes/GameLosingScreen.unity
     guid: 18c25bbdfd0465542bf6ca696923d3c4
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 086bd50483b04234e9fe0c47f54456a2, type: 2}

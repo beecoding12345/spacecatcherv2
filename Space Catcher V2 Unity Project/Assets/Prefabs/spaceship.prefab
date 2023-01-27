@@ -130,6 +130,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spaceshipsmall1
       objectReference: {fileID: 0}
+    - target: {fileID: 8006958694806783865, guid: aef0310779a3e6841971f393444aee53, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72aba93241e78ec48b03c11b16b6cee8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aef0310779a3e6841971f393444aee53, type: 3}
 --- !u!4 &1347246308464149200 stripped

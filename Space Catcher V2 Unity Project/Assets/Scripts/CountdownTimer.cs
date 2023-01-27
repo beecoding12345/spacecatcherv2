@@ -8,9 +8,11 @@ public class CountdownTimer : MonoBehaviour
 {
     //gets the starting time and the loading time
     float currentTime = 0f;
-    float startingTime = 300f;
+    float startingTime = 5f;
 
     [SerializeField] Text CountdownText;
+
+    
 
     private void Start()
     {
@@ -22,11 +24,12 @@ public class CountdownTimer : MonoBehaviour
         currentTime -= 1 * Time.deltaTime;
         CountdownText.text = currentTime.ToString("0");
 
+        //code for when the timer hits 0 it stays at 0 and ends the game. And
 
         if (currentTime <= 0)
-            currentTime = 0;
+            
         {
-            //SceneManager.SetActiveScene("GameLosingScreen");
+            currentTime = 0;
         }
     }
 }
