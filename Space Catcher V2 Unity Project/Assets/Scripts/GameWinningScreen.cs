@@ -6,12 +6,12 @@ public class GameWinningScreen : MonoBehaviour
 {
     public void Play()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("GameLevelScreen");
     }
 
     public void ReturnToMainMenu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        SceneManager.LoadScene("MainMenu");
     }
 
 

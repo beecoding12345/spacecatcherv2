@@ -8,7 +8,7 @@ public class CountdownTimer : MonoBehaviour
 {
     //gets the starting time and the loading time
     float currentTime = 0f;
-    float startingTime = 5f;
+    float startingTime = 180f;
 
     [SerializeField] Text CountdownText;
 
@@ -30,6 +30,7 @@ public class CountdownTimer : MonoBehaviour
             
         {
             currentTime = 0;
+            SceneManager.LoadScene("GameLosingScreen");
         }
     }
 }

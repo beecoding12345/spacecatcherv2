@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ScoreScript : MonoBehaviour
 {
@@ -37,7 +38,10 @@ public class ScoreScript : MonoBehaviour
             MyscoreText.text = "Score" + ScoreNum;
         }
 
-
+        if (ScoreNum  >=35)
+        {
+            SceneManager.LoadScene("GameWinningScreen");
+        }
 
 
 

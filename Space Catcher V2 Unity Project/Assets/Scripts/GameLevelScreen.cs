@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameLevelScreen : MonoBehaviour 
 { 
     public GameObject asteroidPrefab;
-    public float respawnTime = 1.0f;
+    public float respawnTime = 0.5f;
     public float screenBoundsX;
 
     void Start()

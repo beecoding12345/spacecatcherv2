@@ -7,11 +7,12 @@ public class GameLosingScreen : MonoBehaviour
 {
     public void ReturnToMainMenuButton()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +2);
+        SceneManager.LoadScene("MainMenu");
+        
     }
 
     public void PlayAgainButton()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+        SceneManager.LoadScene("GameLevelScreen");
     }
 }
