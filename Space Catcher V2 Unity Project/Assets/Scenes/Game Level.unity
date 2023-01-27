@@ -182,9 +182,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 23
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 235
@@ -213,9 +213,10 @@ GameObject:
   m_Component:
   - component: {fileID: 233430093}
   - component: {fileID: 233430094}
+  - component: {fileID: 233430095}
   m_Layer: 0
   m_Name: ' Asteroid Spawner'
-  m_TagString: MyAsteroid
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -250,6 +251,19 @@ MonoBehaviour:
   asteroidPrefab: {fileID: 7116549104795992724, guid: 22441589a3195c84cbc67095c7a55113, type: 3}
   respawnTime: 1
   screenBoundsX: 50
+--- !u!114 &233430095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233430092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 878d6f803ebe4e2479b8b28419737319, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MyscoreText: {fileID: 93336151}
 --- !u!1 &267071825
 GameObject:
   m_ObjectHideFlags: 0
@@ -506,9 +520,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1537273023}
   - component: {fileID: 1537273022}
+  - component: {fileID: 1537273024}
   m_Layer: 0
   m_Name: Spaceship Spawner
-  m_TagString: MySpaceship
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -543,6 +558,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1537273024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537273021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 878d6f803ebe4e2479b8b28419737319, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MyscoreText: {fileID: 93336151}
 --- !u!1 &1563013881
 GameObject:
   m_ObjectHideFlags: 0
@@ -604,7 +632,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 23
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
@@ -765,7 +793,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c1145908c03cfde4c81198a09458229f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.9
+      value: -4.71
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c1145908c03cfde4c81198a09458229f, type: 3}
       propertyPath: m_LocalPosition.z

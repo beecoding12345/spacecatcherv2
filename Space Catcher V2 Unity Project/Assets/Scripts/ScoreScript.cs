@@ -15,30 +15,32 @@ public class ScoreScript : MonoBehaviour
         MyscoreText.text = "Score : " + ScoreNum;
     }
 
-    private void OnTriggerEnter(Collider Asteroid)
-    {
-        if (Asteroid.tag == "MyAsteroid")
+    private void OnTriggerEnter(Collider other)
+    {   
+        if (other.tag == "MyAsteroid")
         {
 
             ScoreNum -= 1;
-            Destroy(Asteroid.gameObject);
+            Destroy(other.gameObject);
             MyscoreText.text = "Score" + ScoreNum;
+
+            
+           
 
 
         }
-    }
 
-    private void OnTriggerEnter(Collider Spaceship)
-    {
-        if (Spaceship.tag == "MyAsteroid")
+        if (other.tag == "MySpaceship")
         {
-
             ScoreNum += 1;
-            Destroy(Spaceship.gameObject);
+            Destroy(other.gameObject);
             MyscoreText.text = "Score" + ScoreNum;
-
-
         }
+
+
+
+
+
     }
 
 
